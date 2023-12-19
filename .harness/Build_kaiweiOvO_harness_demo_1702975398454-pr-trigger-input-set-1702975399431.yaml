@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kaiweiOvO_harness_demo_1702975398454-pr-trigger-input-set
+  identifier: Build_kaiweiOvO_harness_demo_1702975398454prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kaiweiOvO_harness_demo_1702975398454
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
