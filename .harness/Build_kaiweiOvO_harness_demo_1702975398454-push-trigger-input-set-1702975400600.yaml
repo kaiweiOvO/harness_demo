@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kaiweiOvO_harness_demo_1702975398454-push-trigger-input-set
+  identifier: Build_kaiweiOvO_harness_demo_1702975398454pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kaiweiOvO_harness_demo_1702975398454
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
